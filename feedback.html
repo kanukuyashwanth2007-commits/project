@@ -1,0 +1,57 @@
+<html>
+     <head>
+         <title>Curriculum Feedback Form</title>
+         <style type="text/css">
+            
+             body {
+               padding: 30px;    
+               border-radius:15px;
+               box-shadow: 0 0 15px rgba(0,0,0,0.2);
+               margin: 300px;
+               margin-top: 10px;
+               margin-bottom: 10px;
+               background-image: url(./image/pink.jpg);
+               background-repeat: no-repeat;
+               background-size: cover;
+             }
+
+
+            h1{
+              
+               text-align: center;   
+            }
+            
+            
+         </style>
+     </head>
+      <body>
+         <div>
+           <h1>Feedback </h1>
+            <form>
+             <label for="name" >Student Name:</label><br>
+             <input type="text" placeholder="Enter Your Name"><br><br>
+
+             <label for="email">Email:</label><br>
+                 <input type="email" placeholder="Enter Your Email"><br><br>
+
+             <label for="course">Course:</label><br>
+                <select>
+                   <option value="bsc">B.Sc Computer Science</option>
+                   <option value="bca">BCA</option>
+                   <option value="bcom">B.Com</option>
+                 </select><br><br>
+
+             <label>How do you rate the curriculum?</label><br>
+             <input type="radio"  value="Excellent"> Excellent<br>
+             <input type="radio"  value="Good"> Good<br>
+             <input type="radio"  value="Average"> Average<br>
+             <input type="radio"  value="Poor"> Poor<br><br>
+
+             <label for="comments">Comments:</label><br>
+             <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Type Your Comments"></textarea><br><br>
+
+             <input type="submit" value="Submit Feedback">
+           </form>
+          </div>
+     </body>
+</html>
