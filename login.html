@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Login</title>
+        <style type="text/css">
+            
+             body {
+               padding: 30px;    
+               border-radius:15px;
+               box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+               margin: 300px;
+               margin-top: 10px;
+               margin-bottom: 10px;
+
+               background-image: url(./image/color.jpg);
+               background-position: center; 
+               background-size: cover;
+             
+             }
+
+             .p{
+                text-align: center;
+                font-weight: bolder;
+                font-size: x-large;
+             }
+
+            h1{
+               text-align: center;  
+               font-size: xx-large; 
+            }
+            
+            button{
+                
+                background-color: blue;
+                color: white;
+                font-weight: 200;
+                font-size: medium;
+            }
+            </style>
+            
+    </head>
+    <body>
+        <h1>Login Page</h1>
+        <label class="p">Mobile Number:</label>
+        <input type="tel" placeholder="Enter Your Number"/><br>
+          <br>
+        
+          <label class="p">Email:</label>
+          <input type="email" placeholder="Enter Your Email"/><br>
+          <br>
+        <label class="p">Password:</label>
+        <input type="password" id="password" type="hidden" placeholder="Enter Your Passwords" onclick="show()" required/>
+        <br>
+        <br>
+        
+        <center><button type="submit" >Login </button></center>
+
+    </body>
+</html>
